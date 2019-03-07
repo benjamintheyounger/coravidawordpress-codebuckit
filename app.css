@@ -1,0 +1,54 @@
+section {
+    background-color: #121212;
+    opacity: 1;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .background-video-container {
+    pointer-events: none;
+    z-index: 10;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+  }
+  .background-video-container video {
+    /* background-image: url('*** Poster image goes here ***'); */
+    background-size: cover;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    width: auto;
+    position: absolute;
+    top: 50%;
+    right: 0rem;
+    bottom: 0rem;
+    left: 50%;
+  }
+  
+  .background-video-overlay {
+    color: blue;
+    height: 100vh;
+    z-index: 20;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+  }
+  .background-video-overlay h1 {
+    margin: -50px 0 0 -200px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+  }
+  
